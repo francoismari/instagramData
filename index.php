@@ -56,7 +56,7 @@ if(isset($_POST['access']))
 					echo $error."<br>";
 				}	
 				?>
-				Please put all the files and folders inside on a secure server (do not move everything from the root folder!). Then retrieve the URL and put it there (without the / and the end), example : www.example.com/json
+				Please put all the files and folders inside on a secure server (do not move everything from the root folder!). Then retrieve the URL and put it there (without the / and the end), example : https://www.example.com/json
 			</p>
 		</div>
 		
