@@ -3,6 +3,7 @@ include('session.php');
 $string = file_get_contents($_SESSION['URL']."/likes.json");
 $json = json_decode($string, true);
 ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Likes - Instagram Data</title>
