@@ -25,7 +25,7 @@ $json = json_decode($string, true);
 			<hr>
 			</div>
 			<a href="data.php" class="btn btn-primary"><span class="fa fa-chevron-left"></span> Back home</a><br><br>
-			<p class="lead">You need to upload the file "comments.json" in the json folder to see the comments below.</p>
+			<p class="lead">You need to upload the file "likes.json" in the json folder to see the comments below.</p>
 			<h4><strong>Likes (order by date, they may be more than 1000 likes for an user, your navigator will maybe crash)</strong></h4>
 			<br>
 
