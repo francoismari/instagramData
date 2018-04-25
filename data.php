@@ -18,11 +18,12 @@ include('session.php');
 			<br>
 			<div align="center">
 			<h1><strong><span class="fa fa-instagram"></span> Discover more of your Instagram</strong></h1>
-			<p class="lead">Check all the data that Instagram has from you on a clear interface. — Your folder URL : <strong><?= $_SESSION['URL'] ?></strong> (<a href="index.php">edit</a>)</p>
+			<p class="lead">Check all the data that Instagram has from you on a clear interface</p>
 			<br>
 			<hr>
 			</div>
 			<br>
+			<p class="lead">Your folder URL : <strong><?= $_SESSION['URL'] ?></strong> (<a href="index.php">edit</a>)</p>
 			<h4><strong>Main informations</strong></h4>
 			<br>
 			<div class="row">
