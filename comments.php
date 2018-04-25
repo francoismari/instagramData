@@ -25,7 +25,7 @@ $json = json_decode($string, true);
 			</div>
 			<a href="data.php" class="btn btn-primary"><span class="fa fa-chevron-left"></span> Back home</a><br><br>
 			<p class="lead">You need to upload the file "comments.json" in the json folder to see the comments below.</p>
-			<h4><strong>Comments (order by date) <?= $_SESSION['URL'] ?></strong></h4>
+			<h4><strong>Comments (order by date)</strong></h4>
 			<br>
 
 			<?php
