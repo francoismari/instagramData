@@ -39,10 +39,9 @@ $characters = json_decode($data); // decode the JSON feed
 		</div>
 		
 		<footer>
-			<div class="container">
-			<br>
-			<p class="lead">© François MARI 2018 - Not affiliated with Instagram</p>
-			</div>
+			<?php
+			include('include/footer.php');	
+			?>
 		</footer>
 		
 	</body>
