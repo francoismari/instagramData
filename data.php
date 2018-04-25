@@ -63,7 +63,7 @@ include('session.php');
 				<div class="card" style="width:200px">
     <div class="card-body">
       <h4 class="card-title"><strong><span class="fa fa-comments"></span> &nbspMessages</strong></h4>
-      <p class="card-text">Check all the messages that you send</p>
+      <p class="card-text">Check all the messages that you sent</p>
       <a href="messages.php" class="btn btn-primary">Check</a>
     </div>
   </div>
