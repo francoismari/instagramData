@@ -1,5 +1,5 @@
 <?php
-session_start();
+include('session.php');
 $string = file_get_contents($_SESSION['URL']."/likes.json");
 $json = json_decode($string, true);
 ?>
