@@ -1,8 +1,9 @@
 <?php
-session_start();
+include('session.php');
 $string = file_get_contents($_SESSION['URL']."/searches.json");
 $json = json_decode($string, true);
 ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Searches - Instagram Data</title>
