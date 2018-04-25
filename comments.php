@@ -29,17 +29,17 @@ $json = json_decode($string, true);
 			<h4><strong>Comments (order by date)</strong></h4>
 			<br>
 
-			<?php
-			foreach ($json as $key => $value) {
-    if (!is_array($value)) {
-        echo $key . '=>' . $value . '<br />';
-    } else {
-        foreach ($value as $key => $val) {
-            echo 'N<sup>o</sup>'.$key.' - To '.$val[2].' : ' . $val[1] . '<br>Date : '.$val[0].'<br><hr>';
-        }
-    }
+<?php
+foreach ($json as $key => $value) {
+	if (!is_array($value)) {
+		echo $key . '=>' . $value . '<br />';
+	} else {
+		foreach ($value as $key => $val) {
+			echo 'N<sup>o</sup>'.$key.' - To '.$val[2].' : ' . $val[1] . '<br>Date : '.$val[0].'<br><hr>';
+		}
+	}
 }		
-			?>
+?>
 
 		</div>
 		
