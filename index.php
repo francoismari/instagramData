@@ -6,7 +6,17 @@ if(isset($_POST['access']))
 	{
 		$urlAccess = htmlspecialchars($_POST['urlAccess']);
 		
-		header('Location: config.php?accessUrl='.$urlAccess.'');
+		if (filter_var($urlAccess, FILTER_VALIDATE_URL) === FALSE) {
+			$error = "<strong>Please enter a valid URL</strong>";
+		}
+		else
+		{
+			header('Location: config.php?accessUrl='.$urlAccess.'');
+		}
+	}
+	else
+	{
+		$error = "<strong>Please enter an URL</strong>";
 	}
 }
 ?>
@@ -40,6 +50,12 @@ if(isset($_POST['access']))
 			</div>
 			</form>
 			<p class="lead">
+				<?php
+				if(isset($error))
+				{
+					echo $error."<br>";
+				}	
+				?>
 				Please put all the files and folders inside on a secure server (do not move everything from the root folder!). Then retrieve the URL and put it there (without the / and the end), example : www.example.com/json
 			</p>
 		</div>
