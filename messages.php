@@ -26,7 +26,7 @@ $characters = json_decode($data); // decode the JSON feed
 			<hr>
 			</div>
 			<a href="data.php" class="btn btn-primary"><span class="fa fa-chevron-left"></span> Back home</a><br><br>
-			<p class="lead">You need to upload the file "contacts.json" in the json folder to see the comments below.</p>
+			<p class="lead">You need to upload the file "messages.json" in the json folder to see the comments below.</p>
 			<h4><strong>Messages (order by date)</strong></h4>
 			<br>
 
