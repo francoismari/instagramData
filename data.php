@@ -97,6 +97,7 @@ include('session.php');
 		
 		<h4><strong>Your profil</strong></h4>
 		<br>
+		<p class="lead">This feature can only be used if you have installed Instagram Data on your server.</p>
 <?php
  $dir = $_SESSION['URL']."/profile/*";
  foreach(glob($dir) as $file)  
@@ -113,6 +114,7 @@ include('session.php');
 		<br>
 				<h4><strong>Stories (they are not deleted after 24 hours!)</strong></h4>
 		<br>
+		<p class="lead">This feature can only be used if you have installed Instagram Data on your server.</p>
 <?php
  $dir = $_SESSION['URL']."/stories/*";
  foreach(glob($dir) as $file)  
