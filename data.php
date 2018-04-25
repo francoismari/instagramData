@@ -1,6 +1,7 @@
 <?php
 include('session.php');	
 ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Instagram Data 1.0 by @frrancois_</title>
