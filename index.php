@@ -10,6 +10,7 @@ if(isset($_POST['access']))
 	}
 }
 ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Instagram Data</title>
