@@ -42,7 +42,12 @@ if(isset($_POST['access']))
 			<br>
 			<form action="" method="post">
 			<div class="form-group">
-			    <input class="form-control form-control-lg" type="text" placeholder="Put the URL here..." name="urlAccess">
+			    <input class="form-control form-control-lg" type="text" placeholder="Put the URL here..." name="urlAccess" <?php
+				    if(isset($_SESSION['URL']))
+				    {
+					    echo 'value="'.$_SESSION['URL'].'"';
+				    }
+				    ?>>
 			    <br>
 			    <button type="submit" class="btn btn-primary float-right" name="access">Access &nbsp<span class="fa fa-arrow-right"></span></button>
 			    <br>
